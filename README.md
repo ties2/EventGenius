@@ -26,7 +26,9 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 Install Dependencies:
+```Bash
 pip install -r requirements.txt
+```
 
 Usage
 
@@ -37,10 +39,10 @@ python EventGenius.py
 ```
 Generate Use Cases:
 The script will analyze the event codes and generate use cases for different attack types. Example output:
-
+```Bash
 Use Case for Unauthorized Access Attempt:
 An attacker attempts to log in to a system using incorrect credentials. The event code 4625 (FAILED_LOGON) is triggered...
-
+```
 Contact
 
 For questions or feedback, please contact:
