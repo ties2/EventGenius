@@ -16,11 +16,15 @@ Git (optional, for cloning the repository)
 Steps
 
 Clone the Repository:
+``` Bash
 git clone https://github.com/your-username/EventGenius.git
 cd EventGenius
+```
 Set Up a Virtual Environment (optional but recommended):
+``` Bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 Install Dependencies:
 pip install -r requirements.txt
 
