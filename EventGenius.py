@@ -37,7 +37,7 @@ class SecurityUseCaseGenerator:
         
         for attack_name, event_ids in ATTACK_PATTERNS.items():
             events_text = " ".join([f"Event {event_id}: {self._get_event_name(event_id)}" 
-                                  for event_id in event_ids])
+                                for event_id in event_ids])
             self.attack_pattern_texts.append(
                 f"Attack pattern: {attack_name}. Related events: {events_text}"
             )
